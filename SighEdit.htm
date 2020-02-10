@@ -1,0 +1,79 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+}
+.fixed-header{
+        width: 100%;
+        position: fixed;        
+        background: blue;
+        padding: 20px 0;
+        color: white;
+    }
+.body{
+width:100%;
+background: white;
+padding: 150px 0;
+color:black;
+}
+.fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: gray;
+        padding: 10px 0;
+        color: black;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+.inline
+{
+display:inline;
+}
+.fixed-header>a
+{
+float:right;
+color:white;
+margin-right:20px;
+}
+.fixed-header>i
+{
+color:white;
+margin-left:20px;
+}
+</style>
+</head>
+<body>
+ <div class="fixed-header">
+         <h3 color:white class="inline">truYum</h3>
+	<i class="fa fa-cutlery" aria-hidden="true"></i>
+  <a href="#">Menu</a>
+</div>
+<div class="body">
+<h2>Edit Menu Items</h2><br>
+</div>
+Name&ensp;</br><input type="text" id="demo" name="fname" value="Sandwich"></br>
+Price(Rs.)&ensp;</br><input type="text" id="demo1" price="amount" value=""> 
+Active:</br><input type="radio" id="myRadio" active="true"> Yes &emsp;<input type="radio" id="myRadio" active="true">No
+
+<script>
+function myFunction(){
+var x=document.getElementById("demo").name;
+var x=document.getElementById("demo1").price;
+var x=document.getElementById("myRadio").true;
+
+}
+</script>
+     
+<div class="fixed-footer">
+<h4>Copyright@2019</h4>
+</div>
+</head>
+<body>
+</body>
+</html>

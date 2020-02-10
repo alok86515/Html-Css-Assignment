@@ -1,0 +1,68 @@
+	*{
+		margin:0px;
+		padding: 0px;
+	}
+		.main{
+		display: block;
+		width: 70%;
+		margin:auto;
+
+	}
+		.head-color{
+		background-color: #00ffff;
+	}
+	img
+	{
+		line-height: 200px;
+		float: left;
+		display: inline;
+		margin:50px 30px 30px 50px;
+		height:100px;
+	}
+		.Charity{
+		line-height: 200px;
+		margin-left: 30%;
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+	}
+		.body-section{
+		background-color:#f0f0ff;
+		padding: 25px;
+	}
+		.input-width{
+		width: 300px;
+	}
+		.m-left{
+		margin-left: 50px;
+	}
+		.opacity{
+		opacity: 0.3;
+	}
+		.width-full{
+		width: 655px;
+	}
+		.text-box{
+		width: 655px;
+		height: 150px;
+	}
+		.btn{
+		width: 120px;
+		height: 40px;
+		color: white;
+		font-weight: bold;
+		font-size:20px;
+		margin-left: 40%;
+		border:1px solid green;
+
+	}
+		.table-div
+        {
+		margin-top: 20px;
+	}
+		.input
+	{
+		height: 25px;
+		border-radius: 5px;
+		border: 1px solid gray;
+	}
