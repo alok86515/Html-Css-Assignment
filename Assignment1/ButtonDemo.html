@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ButtonDemo.....</title>
+<script >
+	var count=0;
+	function change_text()
+	{
+		count=parseInt(count)+parseInt(1);
+		var text=document.getElementById("myDiv");
+		if(count%2==0)
+			text.innerHTML="Hello!...";
+		else
+			text.innerHTML="Well Done!..."
+	}
+
+</script>
+</head>
+<body>
+	<button onclick="change_text()">Click me</button>
+	<div id="myDiv"></div>
+</body>
+</html>
